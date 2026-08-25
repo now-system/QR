@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 import json, os, segno
 ROOT = r"C:\Users\i\Desktop\QR"
-BASE = "https://datasheet.nowsys.co.kr"
+BASE = "https://now-system.github.io/QR"
 PRODUCTS = json.load(open(os.path.join(ROOT, "products.json"), encoding="utf-8"))
 qrdir = os.path.join(ROOT, "qr"); os.makedirs(qrdir, exist_ok=True)
 rows = []
