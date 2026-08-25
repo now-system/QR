@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>(주)나우시스템 제품 데이터시트</title>
+<meta name="description" content="나우시스템 네트워크 방송·제어·센서 제품 데이터시트 모음">
+<style>
+  :root { --bg:#f6f7f9; --card:#fff; --fg:#15181d; --sub:#5b6472; --line:#e3e6eb; --accent:#0b5fd1; }
+  @media (prefers-color-scheme: dark) {
+    :root { --bg:#12151a; --card:#1b1f26; --fg:#eef1f5; --sub:#9aa4b2; --line:#2a303a; --accent:#5fa8ff; }
+  }
+  * { box-sizing:border-box; }
+  body { margin:0; background:var(--bg); color:var(--fg);
+    font-family:-apple-system,BlinkMacSystemFont,"Segoe UI","Malgun Gothic","Apple SD Gothic Neo",sans-serif;
+    line-height:1.55; }
+  header { padding:40px 20px 28px; text-align:center; border-bottom:1px solid var(--line); }
+  header .brand { font-size:13px; letter-spacing:.18em; color:var(--sub); text-transform:uppercase; }
+  header h1 { margin:8px 0 4px; font-size:26px; letter-spacing:-.02em; }
+  header p { margin:0; color:var(--sub); font-size:14px; }
+  main { max-width:920px; margin:0 auto; padding:8px 20px 60px; }
+  h2 { font-size:15px; color:var(--sub); font-weight:600; margin:34px 0 12px;
+       letter-spacing:.02em; }
+  .grid { display:grid; gap:12px; grid-template-columns:repeat(auto-fill,minmax(260px,1fr)); }
+  .card { display:flex; flex-direction:column; gap:3px; padding:16px 18px; background:var(--card);
+    border:1px solid var(--line); border-radius:12px; text-decoration:none; color:inherit;
+    transition:border-color .15s, transform .15s; }
+  .card:hover { border-color:var(--accent); transform:translateY(-1px); }
+  .model { font-weight:700; font-size:16px; letter-spacing:-.01em; }
+  .desc { color:var(--sub); font-size:13px; }
+  .go { margin-top:8px; color:var(--accent); font-size:12.5px; font-weight:600; }
+  footer { text-align:center; color:var(--sub); font-size:12.5px; padding:0 20px 48px; }
+</style>
+</head>
+<body>
+<header>
+  <div class="brand">NOW SYSTEM</div>
+  <h1>제품 데이터시트</h1>
+  <p>제품을 선택하면 데이터시트 PDF가 열립니다</p>
+</header>
+<main>
+    <h2>네트워크 방송</h2>
+    <div class="grid">
+      <a class="card" href="./ntbs-n50.pdf">
+        <span class="model">NTBS-N50</span>
+        <span class="desc">네트워크 방송 서버 (VoIP Server)</span>
+        <span class="go">데이터시트 PDF &rarr;</span>
+      </a>
+      <a class="card" href="./nwpa-gp.pdf">
+        <span class="model">NWPA-GP</span>
+        <span class="desc">Gooseneck Paging Microphone</span>
+        <span class="go">데이터시트 PDF &rarr;</span>
+      </a>
+      <a class="card" href="./nwipk-h30.pdf">
+        <span class="model">NWIPK-H30</span>
+        <span class="desc">IP Network Horn Speaker</span>
+        <span class="go">데이터시트 PDF &rarr;</span>
+      </a>
+      <a class="card" href="./nw-ips-ai.pdf">
+        <span class="model">NW-IPS AI</span>
+        <span class="desc">AI IP Speaker</span>
+        <span class="go">데이터시트 PDF &rarr;</span>
+      </a>
+      <a class="card" href="./jwpa-260.pdf">
+        <span class="model">JWPA-260</span>
+        <span class="desc">IP Digital Network AMP</span>
+        <span class="go">데이터시트 PDF &rarr;</span>
+      </a>
+      <a class="card" href="./nw-rc06-d.pdf">
+        <span class="model">NW-RC06-D</span>
+        <span class="desc">Power Supply / Audio Control Unit</span>
+        <span class="go">데이터시트 PDF &rarr;</span>
+      </a>
+    </div>
+    <h2>네트워크 장비</h2>
+    <div class="grid">
+      <a class="card" href="./sim-208b.pdf">
+        <span class="model">SIM-208B</span>
+        <span class="desc">Network Switch</span>
+        <span class="go">데이터시트 PDF &rarr;</span>
+      </a>
+      <a class="card" href="./d3210gv.pdf">
+        <span class="model">D3210GV</span>
+        <span class="desc">Network Switch</span>
+        <span class="go">데이터시트 PDF &rarr;</span>
+      </a>
+    </div>
+    <h2>제어 · 감시</h2>
+    <div class="grid">
+      <a class="card" href="./nw-rtu.pdf">
+        <span class="model">NW-RTU</span>
+        <span class="desc">Environmental Monitoring Controller</span>
+        <span class="go">데이터시트 PDF &rarr;</span>
+      </a>
+      <a class="card" href="./nw-rc04.pdf">
+        <span class="model">NW-RC04</span>
+        <span class="desc">ON/OFF 전원제어기</span>
+        <span class="go">데이터시트 PDF &rarr;</span>
+      </a>
+      <a class="card" href="./nwp-ms.pdf">
+        <span class="model">NWP-MS</span>
+        <span class="desc">SMART Multi-Detector System</span>
+        <span class="go">데이터시트 PDF &rarr;</span>
+      </a>
+    </div>
+    <h2>환경 · 영상 센서</h2>
+    <div class="grid">
+      <a class="card" href="./airn-dk.pdf">
+        <span class="model">AirN-DK</span>
+        <span class="desc">Composite Sensor (복합 대기질 센서)</span>
+        <span class="go">데이터시트 PDF &rarr;</span>
+      </a>
+      <a class="card" href="./nwic-f0203wr.pdf">
+        <span class="model">NWIC-F0203WR</span>
+        <span class="desc">AI Flame Sensor Camera</span>
+        <span class="go">데이터시트 PDF &rarr;</span>
+      </a>
+      <a class="card" href="./nwic-b0505wr.pdf">
+        <span class="model">NWIC-B0505WR</span>
+        <span class="desc">AI Security Bullet Camera</span>
+        <span class="go">데이터시트 PDF &rarr;</span>
+      </a>
+    </div>
+</main>
+<footer>&copy; (주)나우시스템 &middot; nowsys.co.kr</footer>
+</body>
+</html>
