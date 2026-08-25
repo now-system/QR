@@ -3,7 +3,7 @@ import json, os
 ROOT = r"C:\Users\i\Desktop\QR"
 rows = json.load(open(os.path.join(ROOT, "_rows.json"), encoding="utf-8"))
 CATS = {
- "네트워크 방송": ["ntbs-n50","nwpa-gp","nwipk-h30","nw-ips-ai","jwpa-260","nw-rc06-d"],
+ "네트워크 방송": ["ntbs-n50","nwpa-gp","nwipk-h30","nw-ais","jwpa-260","nw-rc06-d"],
  "네트워크 장비": ["sim-208b","d3210gv"],
  "제어 · 감시": ["nw-rtu","nw-rc04","nwp-ms"],
  "환경 · 영상 센서": ["airn-dk","nwic-f0203wr","nwic-b0505wr"],
