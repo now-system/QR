@@ -42,9 +42,3 @@
 Source `Deploy from a branch` / Branch `main` `/ (root)` / Custom domain 비움.
 
 커스텀 도메인을 쓰지 않으므로 도메인 만료·호스팅 해지의 영향을 받지 않습니다.
-
-## 주의 — `nw-ips-ai.pdf` (구 파일명)
-
-5번 제품의 모델명이 **NW-IPS → NW-AIS** 로 변경되어 정식 파일명은 `nw-ais.pdf` 입니다.
-변경 전 배포된 QR이 죽지 않도록 `nw-ips-ai.pdf` 를 **같은 내용으로 함께 유지**합니다.
-데이터시트를 교체할 때는 **두 파일 모두** 갱신하세요 (`tools/split_slides.py` 실행 후 복사).
